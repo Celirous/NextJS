@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 async function fetchGitHubUsers() {
-  const res = await fetch("https://api.github.com/search/users?q=greg", {
+  const res = await fetch("https://api.github.com/search/users?q=bhabha", {
     next: {
       revalidate: 60,
     },
